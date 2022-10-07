@@ -1,0 +1,25 @@
+{
+  "components": [
+    {
+      "label": "Name of Book",
+      "type": "textfield",
+      "id": "Field_0iak5s4",
+      "key": "book"
+    },
+    {
+      "label": "Cost of Book",
+      "type": "textfield",
+      "id": "Field_1gwt3xx",
+      "key": "cost"
+    }
+  ],
+  "type": "default",
+  "id": "bookorder",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.3.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.17.0",
+  "schemaVersion": 4
+}

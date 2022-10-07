@@ -9,6 +9,7 @@ camunda:
     authorization:
       enabled: true
 #    enableExceptionsAfterUnhandledBpmnError: true
+    #deployment-resource-pattern: classpath*:**/bpmn/*, classpath*:**/forms/*
     filter:
       create: All tasks
     generic-properties:

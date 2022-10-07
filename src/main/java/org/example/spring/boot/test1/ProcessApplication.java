@@ -2,14 +2,12 @@ package org.example.spring.boot.test1;
 
 import lombok.extern.slf4j.Slf4j;
 import org.camunda.bpm.engine.RuntimeService;
-import org.camunda.bpm.spring.boot.starter.annotation.EnableProcessApplication;
 import org.camunda.bpm.spring.boot.starter.event.PostDeployEvent;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.event.EventListener;
 
 @SpringBootApplication
-@EnableProcessApplication
 @Slf4j
 public class ProcessApplication {
 	private final static String processKey = "process";
